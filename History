@@ -1,0 +1,69 @@
+  303  sudo apt-get install -y tree wget unzip
+  304  wget https://github.com/bhubr/bhubr.github.io/raw/master/wild/planets.zip
+  305  unzip planets.zip
+  306  eog planets
+  307  mkdir real
+  308  mkdir fictional
+  309  mkdir inhabited
+  310  rmdir real
+  311  rmdir fictional
+  312  rmdir inhabited
+  313  mkdir planets
+  314  cd planets
+  315  mkdir real
+  316  mkdir fictional
+  317  mkdir inhabited
+  318  cdreal
+  319  cd real
+  320  mkdir telluric
+  321  mkdir gas-giants
+  322  mkdir dwarf-planets
+  323  ls
+  324  ..
+  325  cd ..
+  326  ls
+  327  mv earth.jpeg jupiter.jpeg mercury.jpeg pluto.jpeg saturn.jpeg venus.jpeg uranus.jpeg neptune.jpeg mars.jpeg real/
+  328  cd real
+  329  ls
+  330  mv arrakis.jpeg coruscant.jpeg cybertron.jpeg fictional/
+  331  cd fictional
+  332  cd ..
+  333  mv arrakis.jpeg coruscant.jpeg cybertron.jpeg fictional/
+  334  ls fictional
+  335  cd real
+  336  cp earth.jpeg inhabited
+  337  ls inhabited
+  338  cd inhabited
+  339  cp earth.jpeg inhabited/
+  340  mv earth.jpeg mars.jpeg mercury.jpeg venus.jpeg telluric/
+  341  ls telluric
+  342  mv pluto.jpeg dwarf-planets/
+  343  ls dwarf-planets
+  344  mv jupiter.jpeg saturn.jpeg gas-giant/
+  345  mv jupiter.jpeg saturn.jpeg gas-giants/
+  346  ls gas-giants
+  347  cd telluric
+  348  cp earth.jpeg /inhabited/
+  349  cd ..
+  350  mv neptune.jpeg uranus.jpeg gas-giants/
+  351  ls
+  352  rm inhabited
+  353  ls
+  354  cd telluric
+  355  cp earth.jpeg /inhabited/
+  356  cd ..
+  357  cp real/telluric/earth.jpeg inhabited/ 
+  358  ls inhabited
+  359  cp fictional/arrakis.jpeg coruscant.jpeg cybertron.jpeg inhabited/
+  360  ls inhabited
+  361  cp fictional/coruscant.jpeg inhabited/
+  362  cp fictional/cybertron.jpeg inhabited/
+  363  ls inhabited
+  364  tree
+  365  cd real
+  366  rmdir dwarf-planets
+  367  rm -r dwarf-planets
+  368  tree
+  369  cd ..
+  370  tree
+  371  history
